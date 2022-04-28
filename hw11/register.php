@@ -1,7 +1,7 @@
 <?php
     $name = $_GET['name'];
     $surname = $_GET['surname'];
-    $gender = $_GET[array ("male", "female", "other")];
+    $gender = $_GET[array ('gender')];
     if ($gender = "male") {
         echo "Mister $name $surname,";
     } elseif ($gender = "female") {
