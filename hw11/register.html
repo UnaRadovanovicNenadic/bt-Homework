@@ -4,7 +4,7 @@
 
 <head>
     <title>Register</title>
-    <link rel="stysheet" href="./theme/CSS/register.css">
+    <link rel="stylesheet" href="./theme/CSS/register.css">
 </head>
 
 
@@ -32,42 +32,61 @@
         You will be contacted by one of our HR service colleague in order to define the best course modality for <em>YOU</em>.</p>
     </section>
 
-    <section>
+    <section class="form">
 
-        <form action="register.php" method="GET" target="_blank">
+        <form action="register.php" method="GET" target="register.php">
 
             <fieldset>
 
                 <legend>Course Registration</legend>
 
-                <ol type="a" >
-                    <li><label for="name">Name:</label>
-                        <input type="text" name="name" placeholder="Enter your first name..." required/></li>
-                    <li><label for="surname">Surname:</label>
-                        <input type="text" name="surname" placeholder="Enter your surname..." required/></li>
-                    <li><label for="gender">Gender:</label>
-                        <div>
+                    <div class="qanda">
+                    <label for="name" class="label">Name:</label>
+                        <input type="text" id="name" name="name" value="" placeholder="Enter your first name..." required/>
+                    </div>
+
+                    <div class="qanda">
+                        <label for="surname" class="label">Surname:</label>
+                        <input type="text" name="surname" value="" placeholder="Enter your surname..." required/>
+                    </div>
+
+                    <div class="qanda">
+                        <label for="gender" class="label">Gender:</label>
+                        <div class="multi_input">
                             <input type="radio" id="male" name="gender" value="male"/><label for="male">Male</label>
                             <input type="radio" id="female" name="gender" value="female"/><label for="female">Female</label>
                             <input type="radio" id="other" name="gender" value="other"/><label for="other">Other</label>
                         </div>
-                    </li>
-                    <li><label for="email">E-mail:</label>
-                        <input type="email" name="email" placeholder="Enter your e-mail adress..." required/></li>
-                    <li><label for="password">Password:</label>
-                        <input type="text" name="password" placeholder="Enter your password..." required/></li>
-                    <li><label for="re_password">Re-type password:</label>
-                        <input type="text" name="re_password" placeholder="Re-enter your password..." required/></li>
-                    <li><label for="c_choice">Course choice:</label>
-                        <div>
-                            <input type="checkbox" id="PHP" name="c_choice" value="PHP"/><label for="PHP">PHP</label>
-                            <input type="checkbox" id="JS"name="c_choice" value="JavaScript"/><label for="JS">JavaScript</label>
-                            <input type="checkbox" id="P" name="c_choice" value="Python"/><label for="P">Python</label>
+                    </div>
+                    
+                    <div class="qanda">
+                        <label for="email" class="label">E-mail:</label>
+                        <input type="email" name="email" value="" placeholder="Enter your e-mail adress..." required/>
+                    </div>
+
+                    <div class="qanda">
+                        <label for="password" class="label">Password:</label>
+                        <input type="text" name="password" value="" placeholder="Enter your password..." required/>
+                    </div>
+
+                    <div class="qanda">
+                        <label for="re_password" class="label">Re-type password:</label>
+                        <input type="text" name="re_password" value="" placeholder="Re-enter your password..." required/>
+                    </div>
+                    
+                    <div class="qanda">
+                        <label for="c_choice" class="label">Course choice:</label>
+                        <div class="multi_input">
+                            <input type="checkbox" id="PHP" name="c_choice" value="PHP" class="in_cchoice"/><label for="PHP">PHP</label>
+                            <input type="checkbox" id="JS"name="c_choice" value="JavaScript" class="in_cchoice"/><label for="JS">JavaScript</label>
+                            <input type="checkbox" id="P" name="c_choice" value="Python" class="in_cchoice"/><label for="P">Python</label>
                         </div>
-                    </li>
-                    <li><label for="picture">Up-load picture:</label>
-                        <input type="file" name="picture"/></li>
-                </ol>
+                    </div>
+                    
+                    <div class="qanda">
+                        <label for="picture" class="label">Up-load picture:</label>
+                        <input type="file" name="picture"/>
+                    </div>
 
             </fieldset>
 

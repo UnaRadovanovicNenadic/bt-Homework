@@ -1,3 +1,96 @@
-* {
-    background: green;
-}
+
+       body {
+            background-image: url(../IMG/main_background.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: fixed;
+       }
+
+       header, main, footer {
+            display: block;
+            width: 90%;
+            text-align: center;
+            background-color: #001e17;
+            color:beige;
+        }
+
+        header, footer {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .head {
+            color: yellowgreen;
+            font-weight: bold;
+        }
+
+        .foot {
+            font-size: larger;
+        }
+
+        a {
+            text-decoration: none;
+            color:beige;
+        }
+
+        a:hover {
+            color: yellowgreen;
+        }
+
+        #explanation {
+            display: block;
+            background-color: rgba(175, 247, 198, 0.811);
+            color:#001e17;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            letter-spacing: 1px;
+        }
+
+        .form {
+            display: block;
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        .qanda {
+            display: block;
+            text-align: left;
+            width: 90%;
+            margin-left: 10%;
+        }
+
+        label, input, .multi_input {
+            display: inline-block;
+        }
+
+        .label {
+            width: 25%;
+        }
+
+        input {
+            width: 60%;
+            font-style: oblique;
+        }
+
+        .multi_input {
+            width: 60%;
+        }
+
+        #male, #female, #other, #PHP, #JS, #P {
+            width: 15%;
+        }
+
+        .button {
+            width: 10%;
+            padding: 1%;
+            margin-bottom: 2%;
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        fieldset {
+            padding-top: 3%;
+            padding-bottom: 3%;
+        }
+
