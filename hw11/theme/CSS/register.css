@@ -1,0 +1,28 @@
+*{
+    background-color: blanchedalmond;
+    padding: auto;
+}
+
+h1{
+    font-weight: bolder;
+    background-color: yellowgreen;
+    color: black;
+    text-align: center;
+    border-radius: 3px;
+    border-style: dotted;
+    
+}
+
+p{
+    font-weight: 600;
+    background-color: yellowgreen;
+    color: black;
+    text-align: center;
+}
+
+
+
+.placeholder{
+    color:green;
+    font-style: italic;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Register</title>
+    <style>
+        *{
+            background-color: blanchedalmond;
+            padding: auto;
+        }
+
+        h1{
+            font-weight: bolder;
+            background-color: yellowgreen;
+            color: black;
+            text-align: center;
+            border-radius: 3px;
+            border-style: dotted;
+            
+        }
+
+        p{
+            font-weight: 600;
+            background-color: yellowgreen;
+            color: black;
+            text-align: center;
+        }
+
+
+
+        .placeholder{
+            color:green;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+
+<header>
+
+    <div id="headline">
+        <h1 class="text">Course Registration Form</h1>
+    </div>
+
+    <div>
+    <nav id="nav">
+        <ul type="none">Web Page Navigation:
+            <a href="register.html">Register</a> > <a href="list.html">List</a>
+        </ul>
+    </nav>
+    </div>
+
+</header>
+
+<main>
+
+    <div>
+        <p id="explanation">Only few moments are needed to fill the registration form and to click "Submit"!
+            <br>
+        You will be contacted by one of our HR service colleague in order to define the best course modality for <em>YOU</em>.</p>
+    </div>
+
+    <div>
+
+        <form action="register.php" method="get" target="_blank">
+
+            <fieldset>
+
+                <legend>Course Registration</legend>
+
+                <ol type="a" >
+                    <li><label for="name">Name:</label>
+                        <input type="text" name="name" placeholder="Enter your first name..." required/></li>
+                    <li><label for="surname">Surname:</label>
+                        <input type="text" name="surname" placeholder="Enter your surname..." required/></li>
+                    <li><label for="gender">Gender:</label>
+                        <input type="radio" name="gender" value="male"/>Male
+                        <input type="radio" name="gender" value="female"/>Female
+                        <input type="radio" name="gender" value="other"/>Other</li>
+                    <li><label for="email">E-mail:</label>
+                        <input type="email" name="email" placeholder="Enter your e-mail adress..." required/></li>
+                    <li><label for="password">Password:</label>
+                        <input type="text" name="password" placeholder="Enter your password..." required/></li>
+                    <li><label for="re_password">Re-type password:</label>
+                        <input type="text" name="re_password" placeholder="Re-enter your password..." required/></li>
+                    <li><label for="c_choice">Course choice:</label>
+                        <input type="checkbox" name="c_choice" value="PHP"/>PHP</li>
+                        <input type="checkbox" name="c_choice" value="JavaScript"/>JavaScript</li>
+                        <input type="checkbox" name="c_choice" value="Python"/>Python</li>
+                    <li><label for="picture">Up-load picture:</label>
+                        <input type="file" name="picture"/></li>
+                </ol>
+
+            </fieldset>
+
+            <br>
+
+            <input type="reset" class="button" value="Reset"/>
+            <input type="submit" class="button" value="Submit"/>
+
+            <br>
+
+        </form>
+
+    </main>
+
+<footer>
+
+    <h1 class="text">Thank <em>YOU</em> for your TRUST!
+    <br>
+    Now, You Can Learn Easy and Quickly with <em>OUR</em> HELP!</h1>
+
+</footer>
+
+</html>
