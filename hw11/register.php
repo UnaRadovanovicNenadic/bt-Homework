@@ -52,7 +52,7 @@
                     echo "<br>";
                 }
 
-                if (empty ($email)){
+                if (empty ($mail)){
                     echo "You haven't entered your email.";
                     echo "<br>";
                 }
