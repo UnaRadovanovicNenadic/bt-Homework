@@ -42,6 +42,11 @@
         <section class="output">
             <?php
 
+                if (empty($name)) && (empty($surname)) && 
+                (empty($gender)) && (empty($email)) && (empty($password)){
+                    echo "You haven't set your userprofile."
+                } else ()
+
                 if ($gender == "male") {
                     echo "Mister $name $surname,";
                 } else if ($gender == "female") {
@@ -67,6 +72,7 @@
                     echo " - " . ($courses[$i]);
                     }
                 } echo ".";
+            }
             ?>
         </section>
     </main>
