@@ -1,0 +1,60 @@
+body {
+    background-image: url(../img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header, main, footer {
+    background-color: #0d1f02af;
+    width: 90%;
+    display: block;
+    text-align: center;
+}
+
+h1, h3, .label {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    display: block;
+}
+
+.label {
+    display: inline-block;
+    width: 15%;
+    text-align: left;
+}
+
+.input1, .div_input {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+
+#nav {
+    display: block;
+    background-color: rgba(19, 243, 19, 0.541);
+}
+
+ul {
+    padding-left: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: none;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+
+nav ul li a {
+    color: antiquewhite;
+    padding: 2%;
+}
+
+li a:link {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+a:hover {
+    background-color: #0d1f02af;
+}
