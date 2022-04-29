@@ -1,1 +1,3 @@
 Attempt no.3 - so far good
+
+u file-ovima koje sam uploadovala i u kojima sam radila domaci mi ne radi kod koji radi kada krenem sve u novom file-u. Zato sad pokusavam da obrisem i krenem nove file-ove iz pocetka...
