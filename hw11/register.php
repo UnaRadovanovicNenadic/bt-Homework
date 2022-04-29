@@ -42,10 +42,27 @@
         <section class="output">
             <?php
 
-                if (empty($name)) && (empty($surname)) && 
-                (empty($gender)) && (empty($email)) && (empty($password)){
-                    echo "You haven't set your userprofile."
-                } else ()
+                if (empty ($name)){
+                    echo "You haven't entered your surname.";
+                    echo "<br>";
+                }
+
+                if (empty ($surname)){
+                    echo "You haven't entered your name.";
+                    echo "<br>";
+                }
+
+                if (empty ($enail)){
+                    echo "You haven't entered your email.";
+                    echo "<br>";
+                }
+
+                if (empty ($password)){
+                    echo "You haven't entered your password.";
+                    echo "<br>";
+                }
+
+                echo "<br>";
 
                 if ($gender == "male") {
                     echo "Mister $name $surname,";
@@ -72,7 +89,7 @@
                     echo " - " . ($courses[$i]);
                     }
                 } echo ".";
-            }
+            
             ?>
         </section>
     </main>

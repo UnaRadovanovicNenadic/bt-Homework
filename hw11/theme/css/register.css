@@ -83,6 +83,10 @@ div.div_input {
     width: 65%;
 }
 
+input.input1 {
+    color: black;
+    font-style: oblique;
+}
 
 input.input2 {
     display: inline-block;
