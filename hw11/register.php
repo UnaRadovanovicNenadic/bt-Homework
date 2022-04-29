@@ -52,7 +52,7 @@
                     echo "<br>";
                 }
 
-                if (empty ($enail)){
+                if (empty ($email)){
                     echo "You haven't entered your email.";
                     echo "<br>";
                 }
