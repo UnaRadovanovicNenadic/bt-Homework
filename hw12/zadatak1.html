@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 1</title>
+</head>
+<body>
+
+    <header>
+        <h1>MAX CALORIE INTAKE CALCULATOR</h1>
+    </header>
+
+    <main>
+        <form action="zadatak1.php" method="POST">
+            <div>
+                <label for="uzrast">Your current age is:</label>
+                <input type="number" name="age" min="0" max="150" required>
+            </div>
+
+            <div>
+                <label for="zanimanje">Your current occupation is:</label>
+                <input type="text" name="occupation" required>
+            </div>
+
+
+            <div>
+                <label for="tezina">Your current weight in <b>kg</b>'s is:</label>
+                <input type="number" name="weight" min="0" max="450" required>
+            </div>    
+            
+            <button type="reset">RESET</button>
+            <button type="submit">SUBMIT</button>
+
+        </form>
+    </main>
+    
+</body>
+</html>
