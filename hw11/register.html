@@ -32,48 +32,48 @@
         <section>
             <form action="./register.php" method="GET" target="./register.php">
                 <div class="form_line">
-                    <label for="fname" class="label">Name:</label>
+                    <label for="fname" class="label" placeholder="Enter your first name..." required>Name:</label>
                     <input type="text" name="firstname" class="input1">
                 </div>
                 <div class="form_line">
-                    <label for="sname" class="label">Surname:</label>
+                    <label for="sname" class="label" placeholder="Enter your last name..." required>Surname:</label>
                     <input type="text" name="secondname" class="input1">
                 </div>
-                <div class="form_line">
-                    <label for="sex" class="label">Gender:</label>
+                <div class="form_line"><p class="instr">Choose your gender from the list.</p>
+                    <label for="sex" class="label2">Gender:</label>
                     <div class="div_input">
-                        <input type="radio" name="gend" class="input2" value="male">Male
-                        <input type="radio" name="gend" class="input2" value="female">Female
-                        <input type="radio" name="gend" class="input2" value="other">Other
+                        <input type="radio" name="gend" class="input2" value="male"><span>Male</span>
+                        <input type="radio" name="gend" class="input2" value="female"><span>Female</span>
+                        <input type="radio" name="gend" class="input2" value="other"><span>Other</span>
                     </div>
                     
                 </div>
                 <div class="form_line">
-                    <label for="contact" class="label">E-mail:</label>
+                    <label for="contact" class="label" placeholder="Enter you e-mail address..." required>E-mail:</label>
                     <input type="mail" name="e_mail" class="input1">
                 </div>
                 <div class="form_line">
-                    <label for="pword" class="label">Password:</label>
+                    <label for="pword" class="label" placeholder="Enter password you want to set..." required>Password:</label>
                     <input type="password" name="pass" class="input1">
                 </div>
                 <div class="form_line">
-                    <label for="" class="label">Re-type password:</label>
+                    <label for="" class="label" placeholder="Re-enter password you want to set..." required>Re-type password:</label>
                     <input type="password" name=repass" class="input1">
                 </div>
-                <div class="form_line">
-                    <label for="" class="label">Course choices:</label>
+                <div class="form_line"><p class="instr">From the list below choose which course you want to attend.</p>
+                    <label for="" class="label2">Course choices:</label>
                     <div class="div_input">
-                        <input type="checkbox" name="choices[]" class="input2" value="PHP">PHP
-                        <input type="checkbox" name="choices[]" class="input2" value="JavaScript">JavaScript
-                        <input type="checkbox" name="choices[]" class="input2" value="C++">C++
-                        <input type="checkbox" name="choices[]" class="input2" value="HTML&CSS">HTML & CSS
-                        <input type="checkbox" name="choices[]" class="input2" value="Python">Python
+                        <input type="checkbox" name="choices[]" class="input2" value="PHP"><span>PHP</span>
+                        <input type="checkbox" name="choices[]" class="input2" value="JavaScript"><span>JavaScript</span>
+                        <input type="checkbox" name="choices[]" class="input2" value="C++"><span>C++</span>
+                        <input type="checkbox" name="choices[]" class="input2" value="HTML&CSS"><span>HTML & CSS</span>
+                        <input type="checkbox" name="choices[]" class="input2" value="Python"><span>Python</span>
                     </div>
                 </div>
 
                 <div class="buttons"></div>
-                    <button type="reset" value="Reset">Reset</button>
-                    <button type="submit" value="Register">Register</button>
+                    <button type="reset" value="Reset">RESET</button>
+                    <button type="submit" value="Register">REGISTER</button>
                 </div>
             </form>
 
