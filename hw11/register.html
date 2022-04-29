@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registation Form</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+
+        <section></section>
+
+        <section>
+            <form action="./register.php" method="GET" target="./register.php">
+                <div class="form_line">
+                    <label for="fname" class="label">Name:</label>
+                    <input type="text" name="firstname" class="input1">
+                </div>
+                <div class="form_line">
+                    <label for="sname" class="label">Surname:</label>
+                    <input type="text" name="secondname" class="input1">
+                </div>
+                <div class="form_line">
+                    <label for="sex" class="label">Gender:</label>
+                    <div class="div_input">
+                        <input type="radio" name="gend" class="input2" value="male">Male
+                        <input type="radio" name="gend" class="input2" value="female">Female
+                        <input type="radio" name="gend" class="input2" value="other">Other
+                    </div>
+                    
+                </div>
+                <div class="form_line">
+                    <label for="contact" class="label">E-mail:</label>
+                    <input type="mail" name="e_mail" class="input1">
+                </div>
+                <div class="form_line">
+                    <label for="pword" class="label">Password:</label>
+                    <input type="password" name="pass" class="input1">
+                </div>
+                <div class="form_line">
+                    <label for="" class="label">Re-type password:</label>
+                    <input type="" name="" class="">
+                </div>
+                <div class="form_line">
+                    <label for="" class="label">Course choices:</label>
+                    <div class="div_input">
+                        <input type="checkbox" name="choices[]" class="input2" value="PHP">PHP
+                        <input type="checkbox" name="choices[]" class="input2" value="JavaScript">JavaScript
+                        <input type="checkbox" name="choices[]" class="input2" value="C++">C++
+                        <input type="checkbox" name="choices[]" class="input2" value="HTML&CSS">HTML & CSS
+                        <input type="checkbox" name="choices[]" class="input2" value="Python">Python
+                    </div>
+                </div>
+
+                <div class="buttons"></div>
+                    <button type="reset" value="Reset">Reset</button>
+                    <button type="submit" value="Register">Register</button>
+                </div>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
