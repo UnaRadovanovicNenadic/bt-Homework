@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 2</title>
+</head>
+<body>
+
+    <form action="zadatak2.php" method="GET">
+
+        <div class="label_line"><p class="instr">Enter desired values for width and hight of your wall.</p>
+            <div class="parameter">
+                <label for="wall_p" class="label2">Set unit of lenght for WALL:</label>
+                <div class="div_input">
+                    <input type="radio" name="wall_par" class="" value="m"><span>Meters (m)</span>
+                    <input type="radio" name="wall_par" class="" value="ft"><span>Feets (ft)</span>
+                </div>
+            </div>
+
+            <div class="values">
+                <div>
+                    <label for="wall_w">Wall width:</label>
+                    <input type="double" name="wall_w"> 
+                </div>
+        
+                <div>
+                    <label for="wall_h">Wall height:</label>
+                    <input type="double" name="wall_h"> 
+                </div>
+            </div>    
+        </div> 
+
+        <div class="label_line"><p class="instr">Know enter desired values for width and hight of your tile.</p>
+            <div class="parameter">
+                <label for="tile_p" class="label2">Set unit of lenght for TILE:</label>
+                <div class="div_input">
+                    <input type="radio" name="tile_par" class="" value="cm"><span>Centimeters (cm)</span>
+                    <input type="radio" name="tile_par" class="" value="in"><span>Inches (in)</span>
+                </div>
+            </div>
+
+            <div class="values">
+                <div>
+                    <label for="tile_w">Tile width:</label>
+                    <input type="double" name="tile_w"> 
+                </div>
+        
+                <div>
+                    <label for="tile_h">Tile height:</label>
+                    <input type="double" name="tile_h"> 
+                </div>
+            </div>    
+        </div> 
+
+
+
+        <div>
+            <button type="reset">RESET</button>
+            <button type="submit">SUBMIT</button>
+        </div>
+    </div>    
+
+
+
+    </form>
+    
+</body>
+</html>
