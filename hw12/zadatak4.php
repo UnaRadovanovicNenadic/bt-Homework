@@ -15,11 +15,11 @@ while ($snail_per_day < $tree_height) {
 
     if ($snail_per_day >= $tree_height) {
         break;
-    } else  {
-        echo $days . " day: the snail climbed " . $snail_per_day . " cm and the tree hight is " . $tree_height . " cm. <br>";
+    } else {
+        echo "Day " . $days . ": the snail will climbe " . $snail_per_day . " cm and the tree hight will be " . $tree_height . " cm in height. <br>";
     }
 }    
-    echo "After " . $days . " days, the snail has climbed the tree which had " . $tree_height . " cm in hight at that moment.";
+    echo "After " . $days . " days, the snail will climbe the tree which will have " . $tree_height . " cm in hight.";
 
    
 ?>

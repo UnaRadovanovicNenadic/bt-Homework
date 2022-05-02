@@ -8,4 +8,4 @@ Will try later this week, when I plan to add .ccs.
 
 Biggest problem with task no. 3 - how to round number of tiles :D
 
-Task no.4
+Task no.4 - done
