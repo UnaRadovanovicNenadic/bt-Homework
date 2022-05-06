@@ -1,0 +1,15 @@
+.navigation {
+    display: inline-block;
+}
+
+.footer_style {
+    display: block;
+    background-color: rgb(14, 74, 46);
+    color: antiquewhite;
+}
+
+.footer_block {
+    display: inline-block;
+    width: 20%;
+    
+}
