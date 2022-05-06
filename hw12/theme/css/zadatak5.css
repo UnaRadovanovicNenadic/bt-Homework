@@ -1,15 +1,15 @@
-.navigation {
-    display: inline-block;
+/*BACKGROUND*/
+
+* {
+    background-image: url("/theme/img/back1.jpg");
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.footer_style {
+header, body, footer {
     display: block;
     background-color: rgb(14, 74, 46);
     color: antiquewhite;
 }
 
-.footer_block {
-    display: inline-block;
-    width: 20%;
-    
-}
