@@ -1,5 +1,3 @@
-nije mi bilo logicno da bude registracija a ne i sign in ili log in pa sam dodala stranicu
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +11,7 @@ nije mi bilo logicno da bude registracija a ne i sign in ili log in pa sam dodal
 
         <div class="head_line">
             <div class="company_name">
-                <p class="head_par"><strong>WOLF <span class="span">Digital</span></strong></p>
+                <p class="head_par"><strong>WOLF <span class="span">Book's</span></strong></p>
             </div>
 
             <div class="user">
@@ -37,6 +35,66 @@ nije mi bilo logicno da bude registracija a ne i sign in ili log in pa sam dodal
     </header>   
 
     <main>
+        <section class="section_block">
+            <img src="/theme/img/back2.avif" alt="office" class="first_sec_pic">
+        </section>
+
+        <section class="section_block">
+            <div>
+                <h3>Digital Marketing</h3>
+                <p class="section_par">
+                    We put all our knowledge and experience in content & social media marketing, 
+                    and develop marketing strategy tailored exactly to YOUR NEEDS. 
+                </p>
+                <p class="section_par">
+                    Our (copy)writers are experinced in content analysis, and in wide range of fileds:
+                    <ul type="square">
+                        <li>psychology;</li>
+                        <li>pedagogy;</li>
+                        <li>law;</li>
+                        <li>criminology;</li>
+                        <li>behavioral disorder;</li>
+                        <li>sociology;</li>
+                        <li>victimology;</li>
+                        <li>security;</li>
+                        <li>safety;</li>
+                        <li>private security;</li>
+                        <li>technical security systems;</li>
+                        <li>political science;</li>
+                        <li>emergency management;</li>
+                        <li>prevention;</li>                         
+                        <li>media;</li>
+                        <li>digital marketing;</li>
+                        <li>web development;</li>
+                        <li>HTML;</li>
+                        <li>CSS;</li>
+                        <li>PHP;</li>
+                        <li>Word Press.</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div>
+
+            </div>
+            
+        </section>
+
+        <section class="section_block">
+            
+        </section>
+
+        <section class="section_block">
+            
+        </section>
+
+
+
+
+
+
+
+
     </main>
 
     <footer class="footer_style">
@@ -74,7 +132,7 @@ nije mi bilo logicno da bude registracija a ne i sign in ili log in pa sam dodal
             </div>   
             
             <div class="footer_blocks">
-                <p class="footers_heading"><strong>COMPANY NAME</strong></p>
+                <p class="footers_heading"><strong>WOLF <span class="span">Book's</span></strong></p>
                 <ul type="">
                     <li>Adresa, Beograd</li>
                     <li>Telefon: 011/123-45-67</li>
@@ -106,7 +164,7 @@ nije mi bilo logicno da bude registracija a ne i sign in ili log in pa sam dodal
             <div class="copy">
 
                 <div class="copy1">
-                    <p class="copy1_par">Copyright by <strong>WOLF <span class="span">Digital</span></strong>/p>
+                    <p class="copy1_par">Copyright by <strong>WOLF <span class="span">Book's</span></strong></p>
                 </div>
 
                 <div class="copy2">                    
@@ -116,8 +174,34 @@ nije mi bilo logicno da bude registracija a ne i sign in ili log in pa sam dodal
 
             </div>
 
-    </footer>
+        </div>
 
-    
+        <button onclick="topFunction()" id="top" title="Go to top">Go to top</button>
+
+</footer>
+
 </body>
+
 </html>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>

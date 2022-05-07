@@ -11,7 +11,7 @@
 
         <div class="head_line">
             <div class="company_name">
-                <p class="head_par"><strong>WOLF <span class="span">Digital</span></strong></p>
+                <p class="head_par"><strong>WOLF <span class="span">Book's</span></strong></p>
             </div>
 
             <div class="user">
@@ -104,7 +104,7 @@
             <div class="copy">
 
                 <div class="copy1">
-                    <p class="copy1_par">Copyright by <strong>WOLF <span class="span">Digital</span></strong>/p>
+                    <p class="copy1_par">Copyright by <strong>WOLF <span class="span">Book's</span></strong>/p>
                 </div>
 
                 <div class="copy2">                    
@@ -114,8 +114,34 @@
 
             </div>
 
-    </footer>
+        </div>
 
-    
+        <button onclick="topFunction()" id="top" title="Go to top">Go to top</button>
+
+</footer>
+
 </body>
+
 </html>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>

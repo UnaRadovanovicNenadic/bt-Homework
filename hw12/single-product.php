@@ -11,7 +11,7 @@
 
         <div class="head_line">
             <div class="company_name">
-                <p class="head_par"><strong>WOLF <span class="span">Digital</span></strong></p>
+                <p class="head_par"><strong>WOLF <span class="span">Book's</span></strong></p>
             </div>
 
             <div class="user">
@@ -34,68 +34,67 @@
 
     </header>   
 
-    <main>
-        <section class="section_block">
-            <img src="/theme/img/back2.avif" alt="office" class="first_sec_pic">
-        </section>
+    <container>
+    
+            <div class="single_article">
 
-        <section class="section_block">
-            <div>
-                <h3>Digital Marketing</h3>
-                <p class="section_par">
-                    We put all our knowledge and experience in content & social media marketing, 
-                    and develop marketing strategy tailored exactly to YOUR NEEDS. 
-                </p>
-                <p class="section_par">
-                    Our (copy)writers are experinced in content analysis, and in wide range of fileds:
-                    <ul type="square">
-                        <li>psychology;</li>
-                        <li>pedagogy;</li>
-                        <li>law;</li>
-                        <li>criminology;</li>
-                        <li>behavioral disorder;</li>
-                        <li>sociology;</li>
-                        <li>victimology;</li>
-                        <li>security;</li>
-                        <li>safety;</li>
-                        <li>private security;</li>
-                        <li>technical security systems;</li>
-                        <li>political science;</li>
-                        <li>emergency management;</li>
-                        <li>prevention;</li>                         
-                        <li>media;</li>
-                        <li>digital marketing;</li>
-                        <li>web development;</li>
-                        <li>HTML;</li>
-                        <li>CSS;</li>
-                        <li>PHP;</li>
-                        <li>Word Press.</li>
-                    </ul>
-                </p>
+                <div class="begg">
+                    <div class="art_pic">
+                        <div class="art_image" class=""><img src="" alt=""></div>
+                    </div>
+
+                    <div class="art_data">
+                        <div class="book_title">Agents of War: A History of Chemical and Biological Weapon</div>
+
+                        <div class="buy">
+                            <div class="price">
+                                <p>Price:</p>
+                                <span>1.800,00 RSD</span>
+                                <p>Na stanju</p>
+                                <span></span>
+                            </div>
+                            <button type="get" name="add_to_cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="descr">
+                    Often described as the misuse of science, chemical and biological weapons 
+                    have incurred widespread opposition over the years. Despite condemnation 
+                    from the United Nations, governments, and the disarmament lobby, they 
+                    remain very real options for rogue states and terrorists. In this new edition of 
+                    Agents of War, Edward M. Spiers has expanded and updated this much-needed history 
+                    with two new chapters on political poisoning and chemical weapons in the Middle East. 
+                    Spiers breaks new ground by presenting his analysis in both historical and contemporary contexts, 
+                    giving a comprehensive chronological account of why, where, and when such weapons were used or suspected to be deployed.
+                </div>
+
+                <div class="rel_prod">
+                    
+                    <div class="rel_prod_art">
+                        <div class="rel_prod_t"></div>
+                        <div class="rel_prod_img"></div>
+                    </div>
+
+                    <div class="rel_prod_art">
+                        <div class="rel_prod_t"></div>
+                        <div class="rel_prod_img"></div>
+                    </div>
+
+                    <div class="rel_prod_art">
+                        <div class="rel_prod_t"></div>
+                        <div class="rel_prod_img"></div>
+                    </div>
+
+                    <div class="rel_prod_art">
+                        <div class="rel_prod_t"></div>
+                        <div class="rel_prod_img"></div>
+                    </div>
+
+                </div>
             </div>
 
-            <div>
-
-            </div>
-            
-        </section>
-
-        <section class="section_block">
-            
-        </section>
-
-        <section class="section_block">
-            
-        </section>
-
-
-
-
-
-
-
-
-    </main>
+    </container>    
 
     <footer class="footer_style">
         <div class="footer1">
@@ -164,7 +163,7 @@
             <div class="copy">
 
                 <div class="copy1">
-                    <p class="copy1_par">Copyright by <strong>WOLF <span class="span">Digital</span></strong>/p>
+                    <p class="copy1_par">Copyright by <strong>WOLF <span class="span">Book's</span></strong>/p>
                 </div>
 
                 <div class="copy2">                    
@@ -174,8 +173,34 @@
 
             </div>
 
-    </footer>
+        </div>
 
-    
+        <button onclick="topFunction()" id="top" title="Go to top">Go to top</button>
+
+</footer>
+
 </body>
+
 </html>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>

@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +13,7 @@
 
         <div class="head_line">
             <div class="company_name">
-                <p class="head_par"><strong>WOLF <span class="span">Digital</span></strong></p>
+                <p class="head_par"><strong>WOLF <span class="span">Book's</span></strong></p>
             </div>
 
             <div class="user">
@@ -34,24 +36,24 @@
 
     </header>   
 
-    <main>
+    <container>
 
         <aside>
             <div class="filter">
-                <h4>Type of service you need</h4>
+                <h4>Type of Copy</h4>
                 <form action="" method="GET">
                     <div>
-                        <input type="radio" name="service" class="service_value" value=""></input>
-                        <label for="n_s">Digital marketing</label>
+                        <input type="radio" name="copy" class="copy_value" value=""></input>
+                        <label for="n_s">Printed edition</label>
                     </div>
 
                     <div>
-                        <input type="radio" name="service" class="service_value" value=""></input>
-                        <label for="n_s">Web development</label>
+                        <input type="radio" name="copy" class="copy_value" value=""></input>
+                        <label for="n_s">Digital copy</label>
                     </div>
 
                     <div>
-                        <input type="radio" name="service" class="service_value" value=""></input>
+                        <input type="radio" name="copy" class="copy_value" value=""></input>
                         <label for="n_s">Both</label>
                     </div>
                 </form>
@@ -172,26 +174,199 @@
                 </form>
             </div>
 
+            <div class="filter">
+                <h4>Reference Type</h4>
+                <form action="" method="GET">
+                    <div>
+                        <input type="checkbox" name="ref" class="ref_value" value=""></input>
+                        <label for="f_of_i">Book</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="field" class="field_value" value=""></input>
+                        <label for="f_of_i">Paper</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="field" class="field_value" value=""></input>
+                        <label for="f_of_i">Manuscript</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="ref" class="ref_value" value=""></input>
+                        <label for="f_of_i">Disertations</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="field" class="field_value" value=""></input>
+                        <label for="f_of_i">Monography</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="field" class="field_value" value=""></input>
+                        <label for="f_of_i">Case study</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="field" class="field_value" value=""></input>
+                        <label for="f_of_i">Reserach</label>
+                    </div>
+                </form>
+            </div>
+            
         </aside>
 
-        <container>
+        <main>
 
+            <div class="article">
+    
+                <div class="book_title">Agents of War: A History of Chemical and Biological Weapon</div>
+                <div class="wrapper">
+                    <div id="article1" class="image"><img src="./theme/img/article/1.jpg"></div>
+                    <div class="buy">
+                        <div class="price">
+                            <p>Price:</p>
+                            <span>1.800,00 RSD</span>
+                            <p>Na stanju</p>
+                            <span></span>
+                        </div>
+                        <button type="get" name="add_to_cart">Add to Cart</button>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="article">
+    
+                <div class="book_title">American antrax</div>
+                <div class="wrapper">
+                    <div id="article2"class="image"><img src="./theme/img/article/2.jpg"></div>
+                    <div class="buy">
+                        <div class="price">
+                            <p>Price:</p>
+                            <span>1.200,00 RSD</span>
+                        </div>
+                        <button type="get" name="add_to_cart">Add to Cart</button>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="article">
+    
+                <div class="book_title">Biosecurity and bioterrorism</div>
+                <div class="wrapper">
+                    <div id="article3"class="image"><img src="./theme/img/article/3.jpg"></div>
+                    <div class="buy">
+                        <div class="price">
+                            <p>Price:</p>
+                            <span>1.500,00 RSD</span>
+                        </div>
+                        <button type="get" name="add_to_cart">Add to Cart</button>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="article">
+    
+                <div class="book_title">Bioimperialism</div>
+                <div class="wrapper">
+                    <div id="article4"class="image"><img src="./theme/img/article/4.jpg"></div>
+                    <div class="buy">
+                        <div class="price">
+                            <p>Price:</p>
+                            <span>1.100,00 RSD</span>
+                        </div>
+                        <button type="get" name="add_to_cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+            </div>
+    
+            <div class="article">
+    
+                <div class="book_title">A Historical Review On A Biological Warfare Weapon</div>
+                <div class="wrapper">
+                    <div id="article5"class="image"><img src="./theme/img/article/5.jpg"></div>
+                    <div class="buy">
+                        <div class="price">
+                            <p>Price:</p>
+                            <span>1.700,00 RSD</span>
+                        </div>
+                        <button type="get" name="add_to_cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+            </div>
+    
+            <div class="article">
+    
+                <div class="book_title">Prevention, preparedness, protection</div>
+                <div class="wrapper">
+                    <div id="article6" class="image"><img src="./theme/img/article/6.jpg"></div>
+                    <div class="buy">
+                        <div class="price">
+                            <p>Price:</p>
+                            <span>1.660,00 RSD</span>
+                        </div>
+                        <button type="get" name="add_to_cart">Add to Cart</button>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="article">
+    
+                <div class="book_title">A guide for hospital preparedness</div>
+                <div class="wrapper">
+                    <div id="article7"class="image"><img src="./theme/img/article/7.jpg"></div>
+                    <div class="buy">
+                        <div class="price">
+                            <p>Price:</p>
+                            <span>900,00 RSD</span>
+                        </div>
+                        <button type="get" name="add_to_cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="article">
+    
+                <div class="book_title">Bioterrorism</div>
+                <div class="wrapper">
+                    <div id="article8" class="image"><img src="./theme/img/article/8.jpg"></div>
+                    <div class="buy">
+                        <div class="price">
+                            <p>Price:</p>
+                            <span>2.500,00 RSD</span>
+                        </div>
+                        <button type="get" name="add_to_cart">Add to Cart</button>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="article">
+    
+                <div class="book_title">Small-Scale Terrorist Attacks Using Chemical And Biological Agents</div>
+                <div class="wrapper">
+                    <div id="article9" class="image"><img src="./theme/img/article/9.jpg"></div>
+                    <div class="buy">
+                        <div class="price">
+                            <p>Price:</p>
+                            <span>2.100,00 RSD</span>
+                        </div>
+                        
+                        <button type="get" name="add_to_cart">Add to Cart</button>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </main>
 
-
-
-
-
-
-
-
-
-
-
-            
-
-        </container>
-
-    </main>
+    </container>
 
     <footer class="footer_style">
         <div class="footer1">
@@ -260,7 +435,7 @@
             <div class="copy">
 
                 <div class="copy1">
-                    <p class="copy1_par">Copyright by <strong>WOLF <span class="span">Digital</span></strong>/p>
+                    <p class="copy1_par">Copyright by <strong>WOLF <span class="span">Book's</span></strong>/p>
                 </div>
 
                 <div class="copy2">                    
@@ -270,8 +445,34 @@
 
             </div>
 
+        </div>
+
+            <button onclick="topFunction()" id="top" title="Go to top">Go to top</button>
+
     </footer>
 
-    
 </body>
+
 </html>
+
+<script>
+    //Get the button
+    var mybutton = document.getElementById("top");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+</script>
