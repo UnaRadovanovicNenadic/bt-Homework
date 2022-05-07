@@ -1,4 +1,4 @@
-/*BACKGROUND*/
+/*GENERAL*/
 
 * {
     background-image: url("/theme/img/back1.jpg");
@@ -13,3 +13,12 @@ header, body, footer {
     color: antiquewhite;
 }
 
+/*INDEX>HTML*/
+
+.section_block {
+    display: block;
+    width: 90%;
+    position: relative;
+}
+
+#section_services

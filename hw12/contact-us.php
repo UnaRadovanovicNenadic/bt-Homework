@@ -8,14 +8,30 @@
 <body>
 
     <header>
-        <nav class="navigation">
+
+    <div class="head_line">
+            <div class="company_name">
+                <p class="head_par"><strong>WOLF <span class="span">Digital</span></strong></p>
+            </div>
+
+            <div class="user">
+                <ul type="none">
+                    <li><a href="register.html" class="a_nav">Register</a></li>
+                    <li><a href="log-in.html" class="a_nav">Log in</a></li>
+                    <li><a href="#" class="a_nav">Cart</a></li>
+                </ul>   
+            </div>
+        </div>
+
+        <div class="navigation">
             <ul type="none">
-                <li><a href="">HOME</a></li>
-                <li><a href="">PRODUCTS</a></li>
-                <li><a href="">ABOUT US</a></li>
-                <li><a href="">CONTACT US</a></li>
+                <li><a href="index.html" class="a_nav">HOME</a></li>
+                <li><a href="products.html" class="a_nav">PRODUCTS</a></li>
+                <li><a href="about-us.html" class="a_nav">ABOUT US</a></li>
+                <li><a href="contact-us.html" class="a_nav">CONTACT US</a></li>
             </ul>  
-        </nav>  
+        </div>      
+
     </header>   
 
     <main>
@@ -88,12 +104,12 @@
             <div class="copy">
 
                 <div class="copy1">
-                    <p class="copy1_par">Copyright by URN</p>
+                    <p class="copy1_par">Copyright by <strong>WOLF <span class="span">Digital</span></strong>/p>
                 </div>
 
                 <div class="copy2">                    
                     <p class="copy2_par">Powered by IT bootcamp</p>
-                    <img src="" alt="itbootcamp" class="boot_logo">
+                    <img src="bootcamp_logo.png" alt="itbootcamp" class="boot_logo">
                 </div>
 
             </div>
