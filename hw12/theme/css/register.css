@@ -1,0 +1,379 @@
+body {
+    background-color: antiquewhite;
+    width: 100%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    background-color: rgb(8, 78, 8);
+    color:antiquewhite;
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    z-index: 1;
+}
+
+.head_line, .navigation, .head_list2 {
+    display: block;
+    width: 100%;
+}
+
+.name {
+    display: inline-block;
+    margin-left: 2%;
+    width: 60%;
+}
+
+.company_name {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 2%;
+}
+
+.head_par {
+    margin: 0%;
+}
+
+.logo_head {
+    display: inline-block;
+    margin-left: 3.5%;
+    margin-top: 2.5%;
+}
+
+.company_name, .user {
+    margin-top: 3.5%;
+    vertical-align: top;
+    padding: 1%;
+}
+
+.user {
+    display: inline-block;
+    width: 35%;
+    text-align: right;
+    margin-bottom: 0px;
+    margin-top: 2.5%;
+    font-size: smaller;
+}
+
+ul.head_list2 {
+    font-weight: bold;
+}
+
+.user_li {
+    display: inline-block;
+    padding-right: 3%;
+}
+
+.a_nav {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.footer_style {
+    background-color: rgb(8, 78, 8);
+    color:antiquewhite;
+    display: block;
+    width: 100%;
+}
+
+.foot, .copy {
+    display: block;
+    width: 100%;
+    margin: none;
+    padding: none;
+    font-size: medium;
+}
+
+.first_row {
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin: none;
+    padding: none;
+}
+
+.second_row {
+    display: inline-block;
+    width: 25%;
+    margin: none;
+    padding: none;
+}
+
+.block1 {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin: 1%;
+    padding: 1%;
+}
+
+.block2 {
+    display: block;
+    width: 100%;
+    margin: 1%;
+    padding: 1%;
+}
+
+ul.foot_list {
+    text-align: left;
+}
+
+ul#foot_box, ul#foot_box1, ul#foot_box2 {
+    text-align: center;
+    font-size: smaller;
+}
+
+.footers_heading {
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+
+.a_foot {
+    text-decoration: none;
+    color: antiquewhite;
+    text-align: center;
+    text-align: left;
+}
+
+.img_foot {
+    vertical-align: middle;
+}
+
+.copy1, .copy2 {
+    text-align: center;
+    display: block;
+}
+
+a:hover {
+    color: yellowgreen;
+}
+
+#wolf_foot_logo, #boot_foot_logo {
+    display: inline-block; 
+    width: 15%;
+}
+
+#top {
+    margin-left: 90%;
+    width: 8%;
+}
+
+ul {
+    padding-left: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .name {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    img.logo_head {
+        display: inline-block;
+    }
+
+    .navigation {
+        font-size: smaller;
+    }
+
+    div.company_name {
+        display: inline-block;
+        font-size: 30px;
+        width: 70%;
+        text-align: center;
+    }
+
+    div.user {
+        display: block;
+        width: 100%;
+        text-align: right;
+        font-size: smaller;
+        margin-top: 0px;
+    }
+
+    .first_row, .second_row {
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .block2 {
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+        font-size: smaller;
+    }
+
+    .foot_list {
+        font-size: small;
+    }
+
+    .copy1 {
+        font-size: small;
+    }
+
+    #top {
+        margin-left: 75%;
+        width: 20%;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    div.company_name {
+        font-size: 50px;
+    }
+
+    .user, .head_list1 {
+        font-size: medium;
+        text-align: right;
+    }
+
+    .logo_head {
+        height: 65px;
+    }
+
+    .navigation {
+        font-size: larger;
+    }
+}
+
+.container {
+    padding-top: 20%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 0%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    display: block;
+    position: relative;
+    width: 95%;
+    background-color: antiquewhite;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.registration {
+    display: block;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.row {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+label {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 6%;
+}
+
+input, #input1 {
+    display: inline-block;
+    width: 65%;
+}
+
+input {
+    font-style: oblique;
+}
+
+#input1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input_1 {
+    display: inline-block;
+    justify-content: space-around;
+    width: 10%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.button {
+    text-align: center;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+button {
+    font-weight: bold;
+    padding: 1%;
+    background-color: rgb(8, 78, 8);
+    border: none;
+    color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    border: none;
+}
+
+@media only screen and (max-width: 557px) {
+    
+    .container {
+        padding-top: 40%;
+    }
+
+    .row {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+
+    label, input, #input1 {
+        display: block;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 993px) {
+
+    .container{
+        padding-top: 15%;
+    }
+}
