@@ -5,7 +5,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="zadatak5.css">
-    <title>Document</title>
+    <title>Products</title>
 </head>
 <body>
 
@@ -36,190 +36,118 @@
 
     </header>   
 
-    <container>
+    <div id="container">
 
         <aside>
-            <div class="filter">
-                <h4>Type of Copy</h4>
-                <form action="" method="GET">
-                    <div>
-                        <input type="radio" name="copy" class="copy_value" value=""></input>
-                        <label for="n_s">Printed edition</label>
-                    </div>
-
-                    <div>
-                        <input type="radio" name="copy" class="copy_value" value=""></input>
-                        <label for="n_s">Digital copy</label>
-                    </div>
-
-                    <div>
-                        <input type="radio" name="copy" class="copy_value" value=""></input>
-                        <label for="n_s">Both</label>
-                    </div>
+            <section class="filter_option" class="aside1">
+                
+                <form class="sec_formbook_key">
+                    <legend>Choose by <b>BOOK TYPE</b></legend>
+                    <ul type="none" class="aside">
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_printed" class="check_topic_key">
+                            <label for="check_printed" class="check_printed_key">Printed</label>
+                        </div></li>
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_kindle" class="check_topic_key">
+                            <label for="check_kindle" class="sheck_kindle_key">Kindle</label>
+                        </div></li>
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_audio" class="check_topic_key">
+                            <label for="check_audio" class="sheck_audio_key">Audio</label>
+                        </div></li>
+                    </ul>
                 </form>
-            </div>
+            </section>
 
-            <div class="filter">
-                <h4>Filed of interest</h4>
-                <form action="" method="GET">
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Psychology</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Pedagogy</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Law</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Criminology</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Behavioral disorder</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Sociology</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Victimology</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Security</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Psychology</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value="">safety;</input>
-                        <label for="f_of_i">Safety</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Pprivate security</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Technical security systems;</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Political science</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Emergency management</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>                       
-                        <label for="f_of_i">Prevention</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Media</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Digital marketing</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Web development</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">HTML</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">CSS</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">PHP</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Word Press</label>
-                    </div>
+            <section class="filter_option" class="aside2">
+                
+                <form class="sec_formtopic_key">
+                    <legend>Choose by <b>TOPIC</b></legend>
+                    <ul type="none" class="aside">
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_bioterism" class="check_topic_key">
+                            <label for="check_bioterrorism" class="check_bioter_key">Bioterorism</label>
+                        </div></li>
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_bioweapon" class="check_topic_key">
+                            <label for="check_bioweapon" class="sheck_bioweapon_key">Biological weapons</label>
+                        </div></li>
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_history" class="check_topic_key">
+                            <label for="check_history" class="check_history_key">Historycal review</label>
+                        </div></li>
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_polreview" class="check_topic_key">
+                            <label for="check_polreview" class="check_polreview_key">Political review</label>
+                        </div></li>
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_causes" class="check_topic_key">
+                            <label for="check_causes" class="check_causes_key">Causes of usage</label>
+                        </div></li>
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_usage" class="check_topic_key">
+                            <label for="check_usage" class="check_usage_key">Examples of usage</label>
+                        </div></li>
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_hs" class="check_topic_key">
+                            <label for="check_hs" class="sheck_hs_key">Human security</label>
+                        </div></li>
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_risk" class="check_topic_key">
+                            <label for="check_risk" class="check_risk_key">Disaster risk reduction</label>
+                        </div></li>
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_em" class="check_topic_key">
+                            <label for="check_em" class="check_em_key">Emergency management</label>
+                        </div></li>
+                    </ul>
                 </form>
-            </div>
+            </section>
 
-            <div class="filter">
-                <h4>Reference Type</h4>
-                <form action="" method="GET">
-                    <div>
-                        <input type="checkbox" name="ref" class="ref_value" value=""></input>
-                        <label for="f_of_i">Book</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Paper</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Manuscript</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="ref" class="ref_value" value=""></input>
-                        <label for="f_of_i">Disertations</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Monography</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Case study</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="field" class="field_value" value=""></input>
-                        <label for="f_of_i">Reserach</label>
-                    </div>
+            <section class="filter_option" class="aside3">
+                
+                <form class="sec_formtopic_key">
+                    <legend>Choose by <b>SCIENTIFIC VIEW</b></legend>
+                    <ul type="none" class="aside">
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_psycho" class="check_topic_key">
+                            <label for="check_psycho" class="check_psycho_key">Psychology</label>
+                        </div></li>
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_crime" class="check_topic_key">
+                            <label for="check_crime" class="sheck_crime_key">Criminology</label>
+                        </div></li>
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_political" class="check_topic_key">
+                            <label for="check_political" class="check_political_key">Political science</label>
+                        </div></li>
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_hs" class="check_topic_key">
+                            <label for="check_security" class="sheck_security_key">Security</label>
+                        </div></li>
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_riskred" class="check_topic_key">
+                            <label for="check_riskred" class="check_riskred_key">Disaster risk reduction</label>
+                        </div></li>
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_emergency" class="check_topic_key">
+                            <label for="check_emergency" class="check_emergency_key">Emergency management</label>
+                        </div></li>
+                        <li class="aside_child"><div class="li_key">
+                            <input type="checkbox" id="check_defence" class="check_topic_key">
+                            <label for="check_defence" class="check_defence_key">Defense</label>
+                        </div></li>
+                    </ul>
                 </form>
-            </div>
-            
+            </section>
+
         </aside>
 
         <main>
 
             <div class="article">
-    
+
                 <div class="book_title">Agents of War: A History of Chemical and Biological Weapon</div>
                 <div class="wrapper">
                     <div id="article1" class="image"><img src="./theme/img/article/1.jpg"></div>
@@ -227,17 +155,15 @@
                         <div class="price">
                             <p>Price:</p>
                             <span>1.800,00 RSD</span>
-                            <p>Na stanju</p>
-                            <span></span>
                         </div>
                         <button type="get" name="add_to_cart">Add to Cart</button>
                     </div>
                 </div>
-    
+
             </div>
-    
+
             <div class="article">
-    
+
                 <div class="book_title">American antrax</div>
                 <div class="wrapper">
                     <div id="article2"class="image"><img src="./theme/img/article/2.jpg"></div>
@@ -249,11 +175,11 @@
                         <button type="get" name="add_to_cart">Add to Cart</button>
                     </div>
                 </div>
-    
+
             </div>
-    
+
             <div class="article">
-    
+
                 <div class="book_title">Biosecurity and bioterrorism</div>
                 <div class="wrapper">
                     <div id="article3"class="image"><img src="./theme/img/article/3.jpg"></div>
@@ -265,11 +191,11 @@
                         <button type="get" name="add_to_cart">Add to Cart</button>
                     </div>
                 </div>
-    
+
             </div>
-    
+
             <div class="article">
-    
+
                 <div class="book_title">Bioimperialism</div>
                 <div class="wrapper">
                     <div id="article4"class="image"><img src="./theme/img/article/4.jpg"></div>
@@ -283,9 +209,9 @@
                 </div>
                 
             </div>
-    
+
             <div class="article">
-    
+
                 <div class="book_title">A Historical Review On A Biological Warfare Weapon</div>
                 <div class="wrapper">
                     <div id="article5"class="image"><img src="./theme/img/article/5.jpg"></div>
@@ -299,9 +225,9 @@
                 </div>
                 
             </div>
-    
+
             <div class="article">
-    
+
                 <div class="book_title">Prevention, preparedness, protection</div>
                 <div class="wrapper">
                     <div id="article6" class="image"><img src="./theme/img/article/6.jpg"></div>
@@ -313,11 +239,11 @@
                         <button type="get" name="add_to_cart">Add to Cart</button>
                     </div>
                 </div>
-    
+
             </div>
-    
+
             <div class="article">
-    
+
                 <div class="book_title">A guide for hospital preparedness</div>
                 <div class="wrapper">
                     <div id="article7"class="image"><img src="./theme/img/article/7.jpg"></div>
@@ -330,9 +256,9 @@
                     </div>
                 </div>
             </div>
-    
+
             <div class="article">
-    
+
                 <div class="book_title">Bioterrorism</div>
                 <div class="wrapper">
                     <div id="article8" class="image"><img src="./theme/img/article/8.jpg"></div>
@@ -344,11 +270,11 @@
                         <button type="get" name="add_to_cart">Add to Cart</button>
                     </div>
                 </div>
-    
+
             </div>
-    
+
             <div class="article">
-    
+
                 <div class="book_title">Small-Scale Terrorist Attacks Using Chemical And Biological Agents</div>
                 <div class="wrapper">
                     <div id="article9" class="image"><img src="./theme/img/article/9.jpg"></div>
@@ -361,12 +287,11 @@
                         <button type="get" name="add_to_cart">Add to Cart</button>
                     </div>
                 </div>
-    
-            </div>
-    
-        </main>
 
-    </container>
+            </div>
+
+        </main>
+    </div>
 
     <footer class="footer_style">
         <div class="footer1">
@@ -375,8 +300,6 @@
                 <ul type="">
                     <li><a href="#" class="a_foot">About us</a></li>
                     <li><a href="#" class="a_foot">Contact us</a></li>
-                    <li><a href="#" class="a_foot">Contact us</a></li>
-                    <li><a href="#" class="a_foot">Company data</a></li>
                 </ul>  
             </div>
             
@@ -393,12 +316,13 @@
             </div>   
 
             <div class="footer_blocks">
-                <p class="footers_heading">Terms of using</p>
+                <p class="footers_heading">References</p>
                 <ul type="">
-                    <li><a href="#" class="a_foot">General terms of sale in online shop</a></li>
-                    <li><a href="#" class="a_foot">Terms of using online shop</a></li>
-                    <li><a href="#" class="a_foot">Privacy policy and data protection</a></li>
-                    <li><a href="#" class="a_foot">Cookie policy</a></li>
+                    <li><a href="https://www.w3schools.com/" class="a_foot">W3schools</a></li>
+                    <li><a href="https://www.php.net" class="a_foot">PHP</a></li>
+                    <li><a href="https://stackoverflow.com/" class="a_foot">Stackoverflow</a></li>
+                    <li><a href="https://www.youtube.com/" class="a_foot">YouTube</a></li>
+                    <li><a href="https://www.udemy.com/" class="a_foot">Udemy</a></li>
                 </ul>
             </div>   
             
@@ -414,22 +338,27 @@
             </div>
 
             <div class="footer_blocks">
-                <p class="footers_heading">FOLLOW US</p>
-                <div class="footer_subblock">
-                    <ul type="">
-                        <li><a href="" class="a_foot">Facebook</a></li>
-                        <li><a href="" class="a_foot">Instagram</a></li>
-                        <li><a href="" class="a_foot">Twiiter</a></li>
-                        <li><a href="" class="a_foot">Linked In</a></li>
-                    </ul>  
+                <div class="box">
+                    <p class="footers_heading">FOLLOW US</p>
+                    <div class="footer_subblock">
+                        <ul type="">
+                            <li><a href="" class="a_foot">Facebook</a></li>
+                            <li><a href="" class="a_foot">Instagram</a></li>
+                        </ul>  
+                    </div>
+
+                    <div class="footer_subblock">
+                        <img src="" width="20px" alt="facebook_icon" class="img_foot">
+                        <img src="" width="20px" alt="instagram_icon" class="img_foot">
+                    </div>  
                 </div>
 
-                <div class="footer_subblock">
-                    <img src="" width="20px" alt="facebook_icon" class="img_foot">
-                    <img src="" width="20px" alt="instagram_icon" class="img_foot">
-                    <img src="" width="20px" alt="twitter_icon" class="img_foot">
-                    <img src="" width="20px" alt="linkedin_icon" class="img_foot">
-                </div>  
+                <div class="box">
+                    <ul type="none">
+                        <li><a href="register.html" class="a_nav">Register</a></li>
+                        <li><a href="log-in.html" class="a_nav">Log in</a></li>
+                    </ul>
+                </div>
             </div>
 
             <div class="copy">
