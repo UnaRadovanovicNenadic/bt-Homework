@@ -1,8 +1,12 @@
 <?php
-
+ 
 $n = $_GET["num"];
 $i = 1;
 $sum = 0;
+
+if (empty($n)) {
+    echo "First you must enter number.";
+}
 
 while($i <= $n) {
   $sum += $i;
@@ -28,7 +32,7 @@ while($i <= $n) {
 
         <form action="zadatak3.php" method="GET">
             <p>Insert how many natural numbers you want to summarize:</p>
-            <input type="number" name="num" min=1>
+            <input type="number" name="num" min=1> 
             <input type="submit" value="SUBMIT">
         </form>
     </div>  

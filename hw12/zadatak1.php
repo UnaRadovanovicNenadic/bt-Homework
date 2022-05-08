@@ -30,16 +30,15 @@
         echo "<br>";
  
 
-    $occupation = $_POST["occupation"];
+    $occupation = $_POST["occup"];
         $occupation = strtolower($occupation);
-        $occupation = array ("manager","administrative worker", "programmer", "police officer", "army officer", "professional athlete", " ");
-
+    
         function OccupFactor ($occupation) {
         if (($occupation === "manager") || ($occupation === "administrative worker") || ($occupation === "programmer")) {
             return $occup_factor = 100;
         } else if (($occupation === "police officer") || ($occupation === "army officer")) {
             return $occup_factor = 200;
-        } else if ($occupation === "proffesional athlete") {
+        } else if ($occupation === "professional athlete") {
             return $occup_factor = 300;
         } else {
             return $occup_factor = 150;
