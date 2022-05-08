@@ -14,8 +14,12 @@ span {
     color:antiquewhite;
     display: block;
     position: fixed;
+    top: 0px;
+    left: 0px;
     width: 100%;
     margin-left: 0%;
+    margin-top: 0%;
+    z-index: 1;
 }
 
 .head_line, .navigation, .head_list2 {
@@ -23,9 +27,14 @@ span {
     width: 100%;
 }
 
+.name {
+    display: inline-block;
+    margin-left: 2%;
+    width: 60%;
+}
+
 .company_name {
     display: inline-block;
-    width: 40%;
     font-size: 30px;
     margin-left: 2%;
 }
@@ -43,12 +52,16 @@ span {
 .company_name, .user {
     margin-top: 3.5%;
     vertical-align: top;
+    padding: 1%;
 }
 
-.user, .head_list1 {
+.user {
     display: inline-block;
-    width: 45%;
+    width: 35%;
     text-align: right;
+    margin-bottom: 0px;
+    margin-top: 2.5%;
+    font-size: smaller;
 }
 
 ul.head_list2 {
@@ -75,25 +88,65 @@ ul.head_list2 {
     background-color: rgb(8, 78, 8);
     color:antiquewhite;
     display: block;
+    width: 100%;
 }
 
-.footer_blocks {
+.foot, .copy {
+    display: block;
+    width: 100%;
+    margin: none;
+    padding: none;
+    font-size: medium;
+}
+
+.first_row {
     display: inline-block;
-    justify-content: space-around;
-    width: 15%;
+    width: 65%;
+    vertical-align: top;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin: none;
+    padding: none;
+}
+
+.second_row {
+    display: inline-block;
+    width: 25%;
+    margin: none;
+    padding: none;
+}
+
+.block1 {
+    display: inline-block;
+    width: 25%;
     vertical-align: top;
     margin: 1%;
     padding: 1%;
+}
+
+.block2 {
+    display: block;
+    width: 100%;
+    margin: 1%;
+    padding: 1%;
+}
+
+ul.foot_list {
+    text-align: left;
+}
+
+ul#foot_box, ul#foot_box1, ul#foot_box2 {
+    text-align: center;
     font-size: smaller;
 }
 
 .footers_heading {
     font-weight: bold;
-    font-size: larger;
+    font-size: medium;
     text-align: center;
     text-decoration: underline;
     font-family: 'Courier New', Courier, monospace;
-    padding-left: 40px;
+    position: relative;
 }
 
 .a_foot {
@@ -126,16 +179,274 @@ a:hover {
     width: 8%;
 }
 
-@media only screen and (max-width: 992px) {
-    .first_row, .second_row {
+ul {
+    padding-left: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .name {
         display: block;
+        text-align: center;
+        width: 100%;
     }
 
-    .block1 {
-        width: 25%;
+    img.logo_head {
+        display: inline-block;
+    }
+
+    .navigation {
+        font-size: smaller;
+    }
+
+    div.company_name {
+        display: inline-block;
+        font-size: 30px;
+        width: 70%;
+        text-align: center;
+    }
+
+    div.user {
+        display: block;
+        width: 100%;
+        text-align: right;
+        font-size: smaller;
+        margin-top: 0px;
+    }
+
+    .first_row, .second_row {
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
     }
 
     .block2 {
-        width: 45%;
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+        font-size: smaller;
     }
+
+    .foot_list {
+        font-size: small;
+    }
+
+    .copy1 {
+        font-size: small;
+    }
+
+    #top {
+        margin-left: 75%;
+        width: 20%;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    div.company_name {
+        font-size: 50px;
+    }
+
+    .user, .head_list1 {
+        font-size: medium;
+        text-align: right;
+    }
+
+    .logo_head {
+        height: 65px;
+    }
+
+    .navigation {
+        font-size: larger;
+    }
+}
+
+.container {
+    padding-top: 15%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: block;
+    position: relative;
+    width: 95%;
+}
+
+.hidenseek {
+    display: none;
+}
+
+.filter_option {
+    display: block;
+}
+
+aside, main {
+    display: inline-block;
+    padding: 1%;
+    vertical-align: top;
+    background-color: rgb(8, 78, 8);
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 2.5%;
+    width: 95%;
+}
+
+aside {
+    width: 15%;
+}
+
+main {
+    width: 65%
+}
+
+.article {
+    display: inline-block;
+    width: 30%;
+    height: 280px;
+    background-color: rgba(250, 235, 215, 0.562);
+    vertical-align: top;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+.book_title, .wrapper {
+    display: block;
+    width: 100%;
+    padding: 2.5%;
+}
+
+.image, .buy {
+    display: inline-block;
+    width: 45%;
+}
+
+.main_img {
+    height: 200px;
+    padding: 1%;
+}
+
+.price {
+    display: inline-block;
+    width: 100%;
+}
+
+@media only screen and (max-width:576px) {
+    .container {
+        padding-top: 170px;
+    }
+
+    .hidenseek {
+        display: block;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(8, 78, 8);
+        color: antiquewhite;
+    }
+
+    .hide:hover {
+        color: yellowgreen;
+    }
+
+    .filter_option {
+        display: none;
+    }
+
+    aside, main {
+        display: block;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+
+    aside, main {
+        display: block;
+        width: 90%;
+    }
+
+    .filter_option {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    aside, main {
+        margin-bottom: 1%;
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    aside {
+        width: 20%;
+    }
+
+    main {
+        width: 70%;
+    }
+}
+
+form {
+    display: block;
+    margin-bottom: 5px;
+}
+
+legend {
+    font-weight: bold;
+    vertical-align: bottom;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0%;
+    text-decoration: underline;
+    color: antiquewhite;
+}
+
+ul.aside {
+    margin-left: 0%;
+    padding-left: 25px;
+    display: block;
+    padding-right: 5px;
+    padding-top: 0%;
+    text-align: left;
+}
+
+ul li.aside_child:nth-child(odd) {
+    background-color:  rgb(8, 78, 8);
+    margin-right: 15px;
+    color:antiquewhite;
+}
+
+ul li.aside_child:nth-child(even) {
+    background-color: antiquewhite; 
+    margin-right: 15px;
+    color:rgb(8, 78, 8);
+}
+
+ul li.aside_child:nth-child(n):hover {
+    background-color: yellowgreen;
+    color: black;
+}
+
+label, input {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    vertical-align: middle;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+label {
+    width: min-content;
 }
