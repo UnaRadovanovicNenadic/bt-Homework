@@ -300,17 +300,18 @@ aside {
 }
 
 main {
-    width: 65%
+    width: 65%;
 }
 
 .article {
     display: inline-block;
     width: 30%;
     height: 280px;
-    background-color: rgba(250, 235, 215, 0.562);
+    background-color: rgba(250, 235, 215, 0.716);
     vertical-align: top;
     padding: 1%;
     margin-bottom: 1%;
+    margin-left: 0.5%;
 }
 
 .book_title, .wrapper {
@@ -319,9 +320,17 @@ main {
     padding: 2.5%;
 }
 
+.book_title {
+    height: 15%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
 .image, .buy {
     display: inline-block;
     width: 45%;
+    margin-left: 1%;
+    margin-bottom: 1%;
 }
 
 .main_img {
@@ -332,6 +341,18 @@ main {
 .price {
     display: inline-block;
     width: 100%;
+    text-align: right;
+}
+
+.button_cart {
+    margin-left: 50%;
+    background-color: rgb(8, 78, 8);
+    color: antiquewhite;
+    border: none;
+    border-radius: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-top: 5%;
 }
 
 @media only screen and (max-width:576px) {
@@ -362,6 +383,22 @@ main {
         display: block;
         width: 90%;
     }
+
+    .article {
+        display: block;
+        width: 95%;
+        margin-left: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding: 1.5%;
+        height: 280px;
+    }
+
+    .book_title {
+        height: 10%;
+    }
+
+
 }
 
 @media only screen and (min-width: 577px) and (max-width: 992px) {
@@ -377,6 +414,14 @@ main {
         vertical-align: top;
         padding-left: 1%;
         padding-right: 1%;
+    }
+
+    .article {
+        width: 45%;
+        margin-left: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding: 1.5%;
     }
 }
 
@@ -449,4 +494,14 @@ label, input {
 
 label {
     width: min-content;
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1423px) {
+    .article {
+        width: 45%;
+        margin-left: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding: 1.5%;
+    }
 }
