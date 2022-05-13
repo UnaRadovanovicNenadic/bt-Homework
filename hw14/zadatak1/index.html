@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Date Accuracy</title>
+
+    <style>
+        * {
+            font-family: "Times New Roman";
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .input_line {
+            display: block;
+            text-align: center;
+            margin-top: 3px;
+        }
+
+        label {
+            display: inline-block;
+            width: 70px;
+            text-align: left;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+
+        input {
+            display: inline-block;
+            text-align: left;
+            width: 35px;
+        }
+
+        .button {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        button {
+            font-weight: bold;
+            padding: 2px;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <h1>Check Date Accuracy</h1>
+
+    <form action="form.php" method="GET">
+        <div class="input_line">
+            <label for="dd">Day:</label>
+            <input type="text" name="day" id="dd">
+        </div>
+
+        <div class="input_line">
+            <label for="mm">Month:</label>
+            <input type="text" name="month" id="mm">
+        </div>
+
+        <div class="input_line">
+            <label for="yy">Year:</label>
+            <input type="text" name="year" id="yy">
+        </div>
+
+        <div class="button">
+            <button type="submit">SUBMIT</button>
+        </div>
+    </form>
+
+    
+</body>
+
+</html>

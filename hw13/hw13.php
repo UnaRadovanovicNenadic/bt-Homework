@@ -29,10 +29,10 @@ function areaCombinationVol1 ($x, $y) {
 echo "Rectangle and half-circle combination shaped pool area (version 1) is: " . areaCombinationVol1 (7, 4) . " m<sup>2</sup>.<br>";
 
         //ZBIR POVRSINA // za ovaj ugao gledanja 
-        function addTreeAreasVol1 ($a, $b, $r, $x, $y) {//funkcija za zbir povrsina tri bazena sa razlicitim ulaznim parametrima
+        function addThreeAreasVol1 ($a, $b, $r, $x, $y) {//funkcija za zbir povrsina tri bazena sa razlicitim ulaznim parametrima
             return round (( areaRectangle($a, $b) + areaCircle ($r) + areaCombinationVol1 ($x, $y) ), 2, PHP_ROUND_HALF_UP);
         }
-        echo "First sum of tree pool areas calculated through functions is: " . addTreeAreasVol1 (7, 4, 2, 7, 4) . " m<sup>2</sup>.<br>";
+        echo "First version of sum of three pool areas calculated through functions is: " . addThreeAreasVol1 (7, 4, 2, 7, 4) . " m<sup>2</sup>.<br>";
 
 
 //povrsina kombinovanog bazena 2
@@ -42,14 +42,14 @@ function areaCombinationVol2 ($a, $b, $r) {
     // odnosno polovina kruznog bazena se dodaje na pravougaoni, bez obzira na njihov odnos (dalo ideju za vezbanje malo komplikovanijih matematickih funkcija)
         return round ( ((areaRectangle($a, $b)) + ((areaCircle ($r) / 2)) ), 2, PHP_ROUND_HALF_UP);
 }
-echo "Combinated pool area (version 2) is: " . areaCombinationVol2 (7, 4, 2) . " m<sup>2</sup>.<br>";
+echo "Rectangle and half-circle combination shaped pool area (version 2) is: " . areaCombinationVol2 (7, 4, 2) . " m<sup>2</sup>.<br>";
 
         //ZBIR POVRSINA // za slucaj da se primenjuje prethodno za treci bazen, zbir povsina sva tri bazena mozemo izracunati na sledeci nacin
         // u ovom slucaju pozivamo zasebne funkcije 
-        function addTreeAreasVol2 ($a, $b, $r) {
+        function addThreeAreasVol2 ($a, $b, $r) {
             return round ( (areaRectangle ($a, $b) + areaCircle ($r) + areaCombinationVol2 ($a, $b, $r) ), 2, PHP_ROUND_HALF_UP);
         }    
-        echo "Second version of sum of tree pool areas calculated through functions is: " . addTreeAreasVol2 (7, 4, 2) . " m<sup>2</sup>.<br>";
+        echo "Second version of sum of three pool areas calculated through functions is: " . addThreeAreasVol2 (7, 4, 2) . " m<sup>2</sup>.<br>";
 
         // jos jedan nacin 
 
@@ -60,9 +60,9 @@ function areaFromB ($b) {
     return pi () * sqrt ($b / 2) / 2;
 }
 
-function addTreeAreasVol3 ($a, $b) {
+function addThreeAreasVol3 ($a, $b) {
     return round (( ( 2 * ($a * $b)) + ((3 * areaFromB($b)) / 2)), 2, PHP_ROUND_HALF_UP);
 }
-echo "Third version of sum of tree pool areas calculated through equation is: " . addTreeAreasVol3 (7, 4) . " m<sup>2</sup>.<br>"; 
+echo "Third version of sum of three pool areas calculated through equation is: " . addThreeAreasVol3 (7, 4) . " m<sup>2</sup>.<br>"; 
 
 ?>
