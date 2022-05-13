@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Number of Trucks or Rest of the Fuel</title>
+
+    <style>
+        * {
+            font-family: Verdana;
+            font-size: medium;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: larger;
+            font-weight: bold;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        .line {
+            display: block;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        input {
+            display: inline-block;
+            width: 50px;
+            margin-left: 30px;
+        }
+
+        #rest {
+            margin-left: 5px;
+            padding: none;
+        }
+
+        label {
+            display: inline-block;
+            width: 450px;
+            text-align: right;
+        }
+
+        .button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            font-weight: bold;
+            padding: 2px;
+        }
+        
+    </style>
+
+</head>
+<body>
+
+    <h1>Calculate Number of Needed Trucks or Remaining Fuel</h1>
+
+    <form action="trucks.php" method="GET">
+        <div class="line">
+            <label for="tot_f">Total fuel available (l):</label>
+            <input type="text" name="total_fuel" id="tot_f">
+        </div>
+
+        <div class="line">
+            <label for="truck_f">Fuel need for one truck to reach its destination (l):</label>
+            <input type="text" name="truck_fuel" id="truck_f">
+        </div>
+
+        <div class="line">
+            <label for="rest">Do you want to flag calculation for the rest of the fuel?</label>
+            <input type="checkbox" name="rest_fuel" id="rest" value="yes">Yes
+        </div>
+
+        <div  class="button">
+            <button type="reset">RESET</button>
+            <button type="submit">CALCULATE</button>
+        </div>
+        
+    </form>
+
+</body>
+</html>
