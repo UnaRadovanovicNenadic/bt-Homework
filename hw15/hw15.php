@@ -3,7 +3,7 @@
 //zadatak 1
 //Za svako ubacivanje u niz ispitati da li postoji u nizu i ako vec postoji ne dozvoliti da se upise.
 
-echo "<p style='color:red; font-weight: bold;'>Zadatak br.1</p>";
+echo "<p style='color:red; font-weight: bold;'>Zadatak br.1:</p>";
 
 
 $hwArray = ["Pera", "Milka", "Pera", "Sonja", "Danilo", "Marica", "Ivica", "Sonja", "Vanja", "Mira"];
@@ -61,7 +61,7 @@ echo "<br>";
 
 //zadatak 2
 //Pera Peric ima 28 godina i nije ozenjen. Ima prosecnu ocenu 7.5, a kurseve koje trenutno slusa su: Laravel, PHP, jQuery.
-echo "<p style='color:red; font-weight: bold;'>Zadatak br.2</p>";
+echo "<p style='color:red; font-weight: bold;'>Zadatak br.2:</p>";
 
 $data = array (
     array (
