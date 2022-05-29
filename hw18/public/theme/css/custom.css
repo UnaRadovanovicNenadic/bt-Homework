@@ -1,0 +1,108 @@
+
+
+#navbarNav{
+    color: antiquewhite;
+}
+
+.navbar-brand {
+    color: antiquewhite;
+}
+
+.nav-link {
+    color: antiquewhite;
+}
+
+.footer {
+    text-align: center;
+    width:100em;
+}
+
+.list-group {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0rem !important;
+}
+
+a.nav-link:hover {
+    color:black;
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-brand{
+        margin-left: 1rem;
+    }
+}
+
+div.row {
+    justify-content: space-between;
+}
+
+
+form.d-flex {
+    display: inline-block;
+    width: 45%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 639px) {
+
+    form.d-flex {
+        display: block;
+        width: 95%;
+    }
+}
+
+.title {
+    height: 7rem;
+}
+
+h5 {
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+div.col-md-4, div.col-md-8  {
+    width: 45%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 874px) {
+    div.col-md-4, div.col-md-8 {
+        display: block;
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 729px) {
+    div.card.col-4  {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 482px) {
+    div.card.col-4  {
+        width: 100%;
+    }
+
+    div.col-md-4, div.col-md-8  {
+        width: 45%;
+        text-align: center;
+    }
+}
+
+#form-check, #output-check {
+    width:45%;
+    display:inline-block;
+}
